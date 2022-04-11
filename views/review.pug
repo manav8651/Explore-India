@@ -1,0 +1,18 @@
+extends base
+
+block content
+  main.main
+    .login-form
+      h2.heading-secondary.ma-bt-lg Add Review to this tour.
+      form.form.form--review
+        .form__group
+          label.form__label(for='review') Enter Your Review For This Tour.
+          input#review.form__input(type='review', placeholder='Great, Awesome!!' required)
+        .form__group.ma-bt-md
+          label.form__label(for='rating') Enter rating
+          input#rating.form__input(type='number', placeholder='4.5', required)
+        .form__group
+          button.btn.btn--green Add this review
+      
+      //- .forgot-pass
+      //-   button.btn.btn--green Forgot Passwor

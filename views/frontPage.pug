@@ -1,0 +1,190 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet')
+  link(rel='stylesheet' href='css/icon-font.css')
+  link(rel='stylesheet' href='css/style-front.css')
+  link(rel='shortcut icon' type='image/png' href='/img/FrontImg/favicon.png')
+  title Natours | Exciting tours for adventurous people
+header.header
+  .header__logo-box
+    img.header__logo(src='/img/FrontImg/logo-white.png' alt='Logo')
+  .header__text-box
+    h1.heading-primary
+      span.heading-primary--main Outdoors
+      span.heading-primary--sub is where life happens
+    a.btn.btn--white.btn--animated(href='/discover') Discover More
+main
+  section.section-about
+    .u-center-text.u-margin-bottom-big
+      h2.heading-secondary
+        | Exciting tours for adventurous people
+    .row
+      .col-1-of-2
+        h3.heading-tertiary.u-margin-bottom-small
+          | You&apos;re going to fall in love with nature
+        p.paragraph
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          | Delectus, labore nostrum! Inventore non aliquam quos officiis
+          | architecto saepe id, culpa dolorum odio eligendi quaerat dolorem
+          | cum tempore! Dolorem, unde error.
+        h3.heading-tertiary.u-margin-bottom-small
+          | Live adventures like you have never seen before
+        p.paragraph
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          | Delectus, labore nostrum! Inventore non aliquam quos officiis
+          | architecto saepe id, culpa dolorum odio eligendi quaerat dolorem
+          | cum tempore! Dolorem, unde error.
+        a.btn-text(href='#') Learn More &rarr;
+      .col-1-of-2
+        .composition
+          img.composition__photo.composition__photo--p1(src='/img/FrontImg/nat-1-large.jpg' alt='Photo 1')
+          img.composition__photo.composition__photo--p2(src='/img/FrontImg/nat-2-large.jpg' alt='Photo 2')
+          img.composition__photo.composition__photo--p3(src='/img/FrontImg/nat-3-large.jpg' alt='Photo 3')
+  section.section-features
+    .row
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-world
+          h3.heading-tertiary.u-margin-bottom-small Explore the world
+          p.feature-box__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-world
+          h3.heading-tertiary.u-margin-bottom-small Explore the world
+          p.feature-box__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-world
+          h3.heading-tertiary.u-margin-bottom-small Explore the world
+          p.feature-box__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-world
+          h3.heading-tertiary.u-margin-bottom-small Explore the world
+          p.feature-box__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  section.section-tours
+    .u-center-text.u-margin-bottom-big
+      h2.heading-secondary
+        | Most Popular Tours
+    .row
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture--1
+            h4.card__heading
+              span.card__heading-span.card__heading-span--1 the sea explorer
+            .card__details
+              ul
+                li 3 Day Tour
+                li Up to 30 People
+                li 2 tour guides
+                li Sleep in cozy hotels
+                li Difficulty:easy
+          .card__side.card__side--back.card__side--back-1
+            .card__cta
+              .card__price-box
+                p.card__price-only Only
+                p.card__price-value $297
+              a.btn.btn--white(href='/discover') Book Now
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture--2
+            h4.card__heading
+              span.card__heading-span.card__heading-span--2 The Forest Hiker
+            .card__details
+              ul
+                li 7 Day Tour
+                li Up to 30 People
+                li 2 tour guides
+                li Sleep in cozy hotels
+                li Difficulty:easy
+          .card__side.card__side--back.card__side--back-2
+            .card__cta
+              .card__price-box
+                p.card__price-only Only
+                p.card__price-value $297
+              a.btn.btn--white(href='/discover') Book Now
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture--3
+            h4.card__heading
+              span.card__heading-span.card__heading-span--3 The snow adventure
+            .card__details
+              ul
+                li 3 Day Tour
+                li Up to 30 People
+                li 2 tour guides
+                li Sleep in cozy hotels
+                li Difficulty:easy
+          .card__side.card__side--back.card__side--back-3
+            .card__cta
+              .card__price-box
+                p.card__price-only Only
+                p.card__price-value $297
+              a.btn.btn--white(href='/discover') Book Now
+    .u-center-text.u-margin-bottom-big
+      a.btn.btn--green(href='/discover') Discover All Tours
+  section.section-stories
+    .bg-video
+      video.bg-video__content(autoplay='' muted='' loop='')
+        source(src='/img/FrontImg/video.mp4' type='video/mp4')
+        source(src='/img/FrontImg/video.webm' type='video/webm')
+        |             Your Browser is not supported!
+    .u-center-text.u-margin-bottom-big
+      h2.heading-secondary
+        | We make people genuinely happy
+    .row
+      .story
+        figure.story__shape
+          img.story__img(src='/img/FrontImg/nat-8.jpg' alt='Person on a tour')
+          figcaption.story__caption Mary Smith
+        .story__text
+          h3.heading-tertiary.u-margin-bottom-small I had the best week ever with my family
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto velit cumque odio provident nostrum quasi ab necessitatibus a fuga! Incidunt placeat assumenda modi blanditiis animi beatae facilis asperiores adipisci officiis!Lorem
+    .row
+      .story
+        figure.story__shape
+          img.story__img(src='/img/FrontImg/nat-9.jpg' alt='Person on a tour')
+          figcaption.story__caption Jack Wilson
+        .story__text
+          h3.heading-tertiary.u-margin-bottom-small Wow! My life is completly different now
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto velit cumque odio provident nostrum quasi ab necessitatibus a fuga! Incidunt placeat assumenda modi blanditiis animi beatae facilis asperiores adipisci officiis!Lorem
+    .u-center-text.u-margin-top-big
+      a.btn-text(href='#') Read all Stories &rarr;
+  section.section-book
+    .row
+      .book
+        .book__form
+          form.form(action='#')
+            .u-margin-bottom-med
+              h2.heading-secondary
+                | Start Booking Now!
+              .form__group
+                input#name.form__input(type='text' placeholder='Full Name' required='')
+                label.form__label(for='name') Full Name
+              .form__group
+                input#email.form__input(type='email' placeholder='Email ID' required='')
+                label.form__label(for='email') Email ID
+              .form__group.u-margin-bottom-med
+                .form__radio-group
+                  input#small.form__radio-input(type='radio' name='size')
+                  label.form__radio-label(for='small')
+                    span.form__radio-button
+                    |                       Small Tour Group
+                .form__radio-group
+                  input#large.form__radio-input(type='radio' name='size')
+                  label.form__radio-label(for='large')
+                    span.form__radio-button
+                    |                       Large Tour Group
+              .form-group
+                button.btn.btn--green Next Step &rarr;

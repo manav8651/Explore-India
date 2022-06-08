@@ -5,7 +5,7 @@ import { logout } from './login';
 import { signup } from './signup';
 import { updateSettings } from './updateSettings';
 
-const loginForm = document.querySelector('.form');
+const loginForm = document.querySelector('.form--login');
 const reviewForm = document.querySelector('.form--review');
 const signupForm = document.querySelector('.form--signup');
 const logOutBtn = document.querySelector('.nav__el--logout');

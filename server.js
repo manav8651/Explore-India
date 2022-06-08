@@ -15,9 +15,10 @@ mongoose
   .then(() => {
     console.log('DB connections successful');
   });
-let port;
-if (process.env.NODE_ENV.trim() === 'production') port = process.env.PORT_PROD;
-else port = process.env.PORT_DEV;
+// let port;
+// if (process.env.NODE_ENV.trim() === 'production') port = process.env.PORT_PROD;
+// else port = process.env.PORT_DEV;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`App is running on port ${port}.....`);
